@@ -20,7 +20,7 @@ AI agents need isolated, secure environments to run code, access tools, and perf
 
 Managed platforms for running untrusted code from AI agents in isolated environments.
 
-### **[Sandflare](https://sandflare.io)** 🔥
+### **[Sandflare](https://sandflare.io)** 
 - **Type**: Firecracker microVM sandboxes
 - **Boot time**: < 1 seconds (snapshot-based)
 - **Templates**: base, code-interpreter, browser-agent, ai-agent
