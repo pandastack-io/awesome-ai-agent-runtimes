@@ -1,4 +1,4 @@
-# Awesome AI Agent Runtimes [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome AI Agent Runtimes
 
 > A curated list of runtime environments and sandboxing platforms for AI agents to execute code, browse the web, and interact with systems safely.
 
