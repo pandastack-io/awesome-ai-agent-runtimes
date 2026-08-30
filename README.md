@@ -272,6 +272,17 @@ Open-source platforms you can deploy on your own infrastructure.
 - **Pricing**: Free (open source)
 - **Best for**: Secure container execution without daemon
 
+### **[SandBase Harness](https://github.com/sandbaseai/sandbase-harness)**
+- **Type**: Self-hosted TypeScript agent runtime with local, Docker, Kubernetes, and worker sandboxes
+- **Boot time**: Not published; local process startup depends on the configured model and sandbox backend
+- **Key features**:
+  - Persistent, resumable sessions with event streams, audit trails, and replay
+  - MCP toolsets, credential vaults, permission policies, and approvals
+  - Local-first SQLite/file storage with a built-in Console
+  - Docker, Kubernetes, and self-hosted worker execution backends
+- **Pricing**: Free (Apache-2.0 open source); model-provider and infrastructure costs may apply
+- **Best for**: Self-hosted agent operations requiring inspectable execution and tool governance
+
 ---
 
 ## Container & VM Platforms
@@ -460,6 +471,7 @@ Platforms with unique capabilities for specific AI agent use cases.
 | **Kata Containers** | Lightweight VMs | Medium | Virtualization support | Medium | Apache 2.0 |
 | **Docker + Sysbox** | Enhanced containers | Low | Standard Linux | Low | Apache 2.0 |
 | **Podman** | Rootless containers | Low | Standard Linux | Low | Apache 2.0 |
+| **SandBase Harness** | Agent runtime + pluggable sandboxes | Medium | Node.js 22+; Docker/Kubernetes optional | Configurable | Apache 2.0 |
 
 ---
 
